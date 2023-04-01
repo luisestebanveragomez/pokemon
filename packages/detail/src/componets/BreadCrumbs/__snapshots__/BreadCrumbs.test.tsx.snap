@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bread Crumbs Component Should Be Render 1`] = `
+<div>
+  <button
+    class="breadCrumbs__button"
+  >
+    <i
+      class="icon-arrow-left"
+    />
+    test
+  </button>
+</div>
+`;

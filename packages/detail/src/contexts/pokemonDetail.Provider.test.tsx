@@ -10,12 +10,13 @@ const TestingComponent = () => {
   );
 };
 
-describe("Pokemon Detail Provider", () => {
+describe("SectionPokemon Detail Provider", () => {
   it("Should Render", () => {
-    render(
+    const { container } = render(
       <PokemonDetailProvider>
         <TestingComponent />
       </PokemonDetailProvider>
     );
+    expect(container).toMatchSnapshot()
   });
 });

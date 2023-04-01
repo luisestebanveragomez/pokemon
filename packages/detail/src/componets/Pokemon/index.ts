@@ -1,1 +1,0 @@
-export { SectionPokemon } from "./Pokemon";

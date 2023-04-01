@@ -22,7 +22,7 @@ jest.mock("../services/pokemon.service", () => ({
   }
 }));
 
-describe("Pokemon Home Provider", () => {
+describe("SectionPokemon Home Provider", () => {
   it("Should Render", async () => {
     await act( async () => {
       const { container } = render(<PokemonProvider><TestingComponent /></PokemonProvider>)
@@ -30,7 +30,7 @@ describe("Pokemon Home Provider", () => {
     });
   })
 
-  it("Should Be Validate Value", async () => {
+  it("Should Be Validate Text", async () => {
     await act( async () => {
       const { container } = render(<PokemonProvider><TestingComponent /></PokemonProvider>)
       const p = container.querySelector('p')

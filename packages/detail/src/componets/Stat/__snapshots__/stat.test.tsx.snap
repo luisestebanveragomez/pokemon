@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stat Component Should Be Render 1`] = `
+<div>
+  <section
+    class="stat__table"
+  >
+    <div
+      class="stat__table-name"
+    >
+      test
+    </div>
+    <div
+      class="stat__table-bar"
+    >
+      <div />
+    </div>
+    <div
+      class="stat__table-base"
+    >
+      12
+    </div>
+  </section>
+</div>
+`;

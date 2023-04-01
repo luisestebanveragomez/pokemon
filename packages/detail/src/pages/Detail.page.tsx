@@ -7,7 +7,7 @@ import { getDetailPokemon } from "../services/pokemon-detail.service";
 import { pokemonDetailAdapter } from "../adapters/pokemonDetail.adapter";
 import { pokemonDetailRespond } from "../models/pokemonDetail.model";
 import { BreadCrumbs } from "../componets/BreadCrumbs";
-import { SectionPokemon } from "../componets/Pokemon";
+import { SectionPokemon } from "../componets/SectionPokemon";
 import { Stats } from "../componets/Stats";
 import { setStyleElementHelper } from "../utilities/setStyleElement.helper";
 import { URLS } from "../constants/globals";

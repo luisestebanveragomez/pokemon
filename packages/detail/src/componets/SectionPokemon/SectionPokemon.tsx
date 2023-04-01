@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import "./pokemon.css";
+import "./sectionPokemon.css";
 import { Pokemon } from "../../models/pokemonDetail.model";
 
 interface PokemonProps {
@@ -18,8 +18,8 @@ export const SectionPokemon: FC<PokemonProps> = ({ detail, id }) => {
           alt=""
         />
         <figcaption>
-          <span className="pokemon__category">{detail.type}</span>
-          <h2 className="pokemon__name">{detail.name}</h2>
+          <span className="pokemon__category">{detail?.type}</span>
+          <h2 className="pokemon__name">{detail?.name}</h2>
         </figcaption>
       </figure>
       <div className="pokemon__number">#{id}</div>

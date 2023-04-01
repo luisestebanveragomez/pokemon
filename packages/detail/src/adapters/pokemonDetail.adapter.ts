@@ -6,7 +6,7 @@ export const pokemonDetailAdapter = ({
   stats,
 }: pokemonDetailRespond): Pokemon => ({
   name,
-  type: types[0].type.name ?? "",
+  type: (types || [])[0]?.type?.name ?? "",
   stats: (stats || []).map(({ base_stat, effort, stat }) => ({
     base: base_stat,
     stat: stat.name,

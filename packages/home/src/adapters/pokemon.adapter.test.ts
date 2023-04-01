@@ -1,6 +1,6 @@
 import { PokemonAdapter } from './pokemon.adapter';
 
-describe('Pokemon Adapter', () => {
+describe('SectionPokemon Adapter', () => {
   it('Should Validate Empty Array', () => {
     const pokemon = PokemonAdapter()
     expect(pokemon.length).toEqual(0)

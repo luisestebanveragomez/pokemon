@@ -5,7 +5,6 @@ import { getPokemon } from "../services/pokemon.service";
 import { randomNumberHelper } from "../utilities/randomNumber.helper";
 import { Pokemon } from "../models/pokemon.model";
 import { PokemonAdapter } from "../adapters/pokemon.adapter";
-import { useFetch } from '../hooks/useFetch';
 
 type Props = {
   children: React.ReactElement;
@@ -17,7 +16,7 @@ export const PokemonProvider: FC<Props> = ({ children }) => {
   const max = randomNumberHelper(40, 80);
   const request = async () => {
     // @ts-ignore
-    const { results } = await getPokemon(min, max)
+    const { results } = await getPokemon(min, max);
     setPokemon(PokemonAdapter(results || []));
   };
 

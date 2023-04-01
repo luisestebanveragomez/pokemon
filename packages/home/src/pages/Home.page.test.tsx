@@ -15,7 +15,7 @@ jest.mock("react-i18next", () => ({
   }),
 }));
 
-jest.mock("../contexts/Pokemon.Provider", () => ({
+jest.mock("../contexts/SectionPokemon.Provider", () => ({
   __esModule: true,
   usePokemonContext: () => ({
     pokemon: [

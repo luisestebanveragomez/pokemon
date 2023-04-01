@@ -1,7 +1,7 @@
 import { fireEvent, render } from '@testing-library/react';
 import { Pokemon } from './Pokemon';
 
-describe('Pokemon Component', () => {
+describe('SectionPokemon Component', () => {
   it('Should Render', () => {
     const { container } = render(<Pokemon name={'test'} id={12} textButton={''} handle={() => {} }/>)
     expect(container).toMatchSnapshot()

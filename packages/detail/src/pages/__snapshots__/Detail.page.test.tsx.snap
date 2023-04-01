@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail Page Should Render 1`] = `
+<div>
+  <section>
+    <section>
+      <button
+        class="breadCrumbs__button"
+      >
+        <i
+          class="icon-arrow-left"
+        />
+        back
+      </button>
+    </section>
+    <section
+      class="relative"
+    >
+      <figure
+        class="pokemon"
+      >
+        <img
+          alt=""
+          class="pokemon__img"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/12.svg"
+        />
+        <figcaption>
+          <span
+            class="pokemon__category"
+          />
+          <h2
+            class="pokemon__name"
+          >
+            test
+          </h2>
+        </figcaption>
+      </figure>
+      <div
+        class="pokemon__number"
+      >
+        #
+        12
+      </div>
+    </section>
+    <section
+      class="mt-4"
+    >
+      <h3
+        class="stats__title"
+      >
+        pokemon.title
+      </h3>
+    </section>
+  </section>
+</div>
+`;

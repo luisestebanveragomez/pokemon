@@ -15,7 +15,7 @@ export const Stats: FC<StatsProps> = ({ detail, t, refStat, title }) => {
   return (
     <>
       <h3 className="stats__title">{t(title)}</h3>
-      {detail.stats.map(({ base, stat, percentage }) => (
+      {(detail?.stats || []).map(({ base, stat, percentage }) => (
         <Stat
           key={stat}
           base={base}
