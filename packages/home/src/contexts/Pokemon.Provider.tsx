@@ -17,9 +17,8 @@ export const PokemonProvider: FC<Props> = ({ children }) => {
   const max = randomNumberHelper(40, 80);
   const request = async () => {
     // @ts-ignore
-    const { results } = useFetch(`https://pokeapi.co/api/v2/pokemon?offset=${min}&limit=${max}`)
-    PokemonAdapter(results);
-    setPokemon(PokemonAdapter(results));
+    const { results } = await getPokemon(min, max)
+    setPokemon(PokemonAdapter(results || []));
   };
 
   useEffect(() => {

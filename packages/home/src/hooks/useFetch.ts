@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 export const useFetch = (url: string) => {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState();
 
-  useEffect(() => {
+ useEffect(() => {
     try {
-      (async () => {
-        const data = await fetch(url);
-        const result = await data.json();
-        setData(result);
-      })();
+      const tomalo = async () => {
+        const response = await fetch(url);
+        const { result } =  await response.json();
+        setData(result)
+      }
+      tomalo()
     } catch {}
   }, [url]);
 
