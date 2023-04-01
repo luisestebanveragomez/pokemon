@@ -14,6 +14,7 @@ exports[`Header Should Be Show Sub Menu Language 1`] = `
             alt="Pokémon"
             class="header__sectionImg-img"
             src="[object Object]"
+            title="Logo Pokémon"
           />
         </button>
       </h1>
@@ -79,6 +80,7 @@ exports[`Header Should Render 1`] = `
             alt="Pokémon"
             class="header__sectionImg-img"
             src="[object Object]"
+            title="Logo Pokémon"
           />
         </button>
       </h1>

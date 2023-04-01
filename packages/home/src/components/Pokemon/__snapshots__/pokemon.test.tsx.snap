@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pokemon Component Should Render 1`] = `
+exports[`SectionPokemon Component Should Render 1`] = `
 <div>
   <article
     class="relative contFigure"

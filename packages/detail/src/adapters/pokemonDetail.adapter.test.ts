@@ -1,4 +1,4 @@
-import { pokemonDetailAdapter } from './pokemonDetail.adapter';
+import { pokemonDetailAdapter } from "./pokemonDetail.adapter";
 
 describe("Pokemon Detail Adapter", () => {
   it("Should Return Default Value", () => {
@@ -13,8 +13,8 @@ describe("Pokemon Detail Adapter", () => {
   it("Should Validate Max Percentage", () => {
     const adapter = pokemonDetailAdapter({
       name: " test",
-      types: [{ type: { name: "h", url: '' }, slot: 12 }],
-      stats: [{base_stat: 122, effort: 34, stat: { name: 'sa', url: ''}}],
+      types: [{ type: { name: "h", url: "" }, slot: 12 }],
+      stats: [{ base_stat: 122, effort: 34, stat: { name: "sa", url: "" } }],
     });
     expect(adapter.stats[0].percentage).toEqual(100);
   });
@@ -22,8 +22,8 @@ describe("Pokemon Detail Adapter", () => {
   it("Should Validate default Percentage", () => {
     const adapter = pokemonDetailAdapter({
       name: " test",
-      types: [{ type: { name: "h", url: '' }, slot: 12 }],
-      stats: [{base_stat: 22, effort: 34, stat: { name: 'sa', url: ''}}],
+      types: [{ type: { name: "h", url: "" }, slot: 12 }],
+      stats: [{ base_stat: 22, effort: 34, stat: { name: "sa", url: "" } }],
     });
     expect(adapter.stats[0].percentage).toEqual(22);
   });

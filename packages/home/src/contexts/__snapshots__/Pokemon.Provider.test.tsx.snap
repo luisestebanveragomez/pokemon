@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pokemon Home Provider Should Render 1`] = `
+exports[`SectionPokemon Home Provider Should Render 1`] = `
 <div>
   <p>
     test

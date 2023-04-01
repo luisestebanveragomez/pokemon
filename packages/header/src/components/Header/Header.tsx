@@ -37,6 +37,7 @@ export const Header: FC = () => {
               src={Pokemon}
               className="header__sectionImg-img"
               alt="Pokémon"
+              title="Logo Pokémon"
             />
           </button>
         </h1>

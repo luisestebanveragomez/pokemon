@@ -1,5 +1,8 @@
-import { render } from '@testing-library/react';
-import { PokemonDetailProvider, usePokemonDetailContext } from './pokemonDetail.Provider';
+import { render } from "@testing-library/react";
+import {
+  PokemonDetailProvider,
+  usePokemonDetailContext,
+} from "./pokemonDetail.Provider";
 
 const TestingComponent = () => {
   const data = usePokemonDetailContext();
@@ -17,6 +20,6 @@ describe("SectionPokemon Detail Provider", () => {
         <TestingComponent />
       </PokemonDetailProvider>
     );
-    expect(container).toMatchSnapshot()
+    expect(container).toMatchSnapshot();
   });
 });
