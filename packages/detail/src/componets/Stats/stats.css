@@ -1,0 +1,6 @@
+.stats__title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--white);
+  margin-bottom: 20px;
+}

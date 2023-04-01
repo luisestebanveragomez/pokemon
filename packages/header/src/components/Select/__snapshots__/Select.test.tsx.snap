@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Should Render 1`] = `
+<div>
+  <ul
+    class="select__ul"
+  />
+</div>
+`;

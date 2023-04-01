@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Not Found Page Should Render 1`] = `
+<div>
+  <section>
+    <h2
+      class="generic__text"
+    >
+      notFound.text
+    </h2>
+    <button
+      class="generic__button"
+      type="button"
+    >
+      notFound.back
+    </button>
+  </section>
+</div>
+`;

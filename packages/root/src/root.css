@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./assets/fonts/icomoon.eot');
+    src:  url('./assets/fonts/icomoon.eot#iefix') format('embedded-opentype'),
+    url('./assets/fonts/icomoon.ttf') format('truetype'),
+    url('./assets/fonts/icomoon.woff') format('woff'),
+    url('./assets/fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+    content: "\e903";
+}
+.icon-arrow-right:before {
+    content: "\e901";
+}
+.icon-arrow-left:before {
+    content: "\e902";
+}
+.icon-checkmark:before {
+    content: "\e904";
+}
+.icon-translate:before {
+    content: "\e900";
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-weight: normal;
+    box-sizing: border-box;
+    outline: none;
+}
+
+img {
+    vertical-align: top;
+    font-size: 0;
+}
+html {
+    min-height: 100%;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fire: #ff7402;
+    --grass: #33a165;
+    --steel: #00858a;
+    --water: #0050ac;
+    --psychic: #c90086;
+    --ground: #c90086;
+    --ice: #70deff;
+    --flying: #5d4e75;
+    --ghost: #4d5b64;
+    --normal: #753845;
+    --poison: #7e0058;
+    --rock: #6e1a00;
+    --fighting: #634136;
+    --dark: #272625;
+    --bug: #6e1a00;
+    --dragon: #00c431;
+    --electric: #bba909;
+    --fairy: #d31c81;
+    --unknow: #757575;
+    --shadow: #29292c;
+    --white: #ffffff;
+    --font-family: "Montserrat";
+    --max-width: 900px;
+    --font-size: 14px;
+    --font-icons: 'icomoon';
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    position: relative;
+    background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.63) 0%,
+            rgba(0, 0, 0, 0.63) 100%
+    ),
+    #ff3f02;
+    background-blend-mode: soft-light, normal;
+    width: 100%;
+    display: block;
+    height: 100%;
+    transition: brackound 0.5s ease-in-out;
+}
+
+.wrapper {
+    max-width: var(--max-width);
+    padding: 0 1rem;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.containerContent {
+    margin-top: 8rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.mt-4 {
+    margin-top: 4rem;
+}

@@ -1,0 +1,28 @@
+
+.stat__table {
+  display: flex;
+  gap: 1rem;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.stat__table-name {
+  width: 120px;
+  text-transform: capitalize;
+}
+
+.stat__table-bar {
+  flex: 1;
+}
+
+.stat__table-bar div {
+  height: 100%;
+  background-color: var(--white);
+  border-radius: 10px;
+  width: 0;
+  transition: .3s;
+}
+
+.stat__table-base {
+  width: 30px;
+}

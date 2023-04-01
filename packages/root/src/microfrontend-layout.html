@@ -1,0 +1,32 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+
+  <nav>
+    <application name="@org/navbar"></application>
+  </nav>
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+
+  <main>
+    <application name="@pokemon/header"></application>
+    <section class="wrapper containerContent">
+      <route default>
+        <application name="@pokemon/home"></application>
+      </route>
+      <route path="detail/:id">
+        <application name="@pokemon/detail"></application>
+      </route>
+      <redirect from="/detail" to="/"></redirect>
+    </section>
+  </main>
+</single-spa-router>
