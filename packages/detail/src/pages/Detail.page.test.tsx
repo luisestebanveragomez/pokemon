@@ -1,8 +1,6 @@
 import { render } from "@testing-library/react";
 
 import DetailPage from "./Detail.page";
-import { getDetailPokemon } from "../services/pokemon-detail.service";
-import { usePokemonDetailContext } from "../contexts/pokemonDetail.Provider";
 
 jest.mock("react-router-dom", () => ({
   __esModule: true,
@@ -10,6 +8,7 @@ jest.mock("react-router-dom", () => ({
   useParams: () => ({
     id: 12,
   }),
+  Link: ({ name, url }) => <a href={url}>{name}</a>,
 }));
 
 jest.mock("../services/pokemon-detail.service", () => ({

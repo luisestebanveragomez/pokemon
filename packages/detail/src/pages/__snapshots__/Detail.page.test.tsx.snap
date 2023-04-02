@@ -4,14 +4,7 @@ exports[`Detail Page Should Render 1`] = `
 <div>
   <section>
     <section>
-      <button
-        class="breadCrumbs__button"
-      >
-        <i
-          class="icon-arrow-left"
-        />
-        back
-      </button>
+      <a />
     </section>
     <section
       class="relative"

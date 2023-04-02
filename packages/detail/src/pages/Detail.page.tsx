@@ -36,11 +36,6 @@ const DetailPage: FC = () => {
       );
   }, [detail]);
 
-  const redirect = () => {
-
-    navigate(URLS.BASE);
-  }
-
   return (
     <section>
       <section>

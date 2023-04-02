@@ -2,13 +2,6 @@
 
 exports[`Bread Crumbs Component Should Be Render 1`] = `
 <div>
-  <button
-    class="breadCrumbs__button"
-  >
-    <i
-      class="icon-arrow-left"
-    />
-    test
-  </button>
+  <a />
 </div>
 `;

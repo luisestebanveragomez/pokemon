@@ -6,17 +6,15 @@ import { URLS } from "./constants/globals";
 
 const Detail = React.lazy(() => import("./pages/Detail.page"));
 
-export const router = createBrowserRouter(
-  [
-    {
-      path: `${URLS.DETAIL}/:id`,
-      element: (
-        <React.Suspense fallback={<>...</>}>
-          <PokemonDetailProvider>
-            <Detail />
-          </PokemonDetailProvider>
-        </React.Suspense>
-      ),
-    },
-  ]
-);
+export const router = createBrowserRouter([
+  {
+    path: `${URLS.DETAIL}/:id`,
+    element: (
+      <React.Suspense fallback={<>...</>}>
+        <PokemonDetailProvider>
+          <Detail />
+        </PokemonDetailProvider>
+      </React.Suspense>
+    ),
+  },
+]);
