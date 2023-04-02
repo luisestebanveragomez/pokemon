@@ -1,16 +1,17 @@
 import { FC } from "react";
 
 import "./breadCrumbs.css";
+import { Link } from 'react-router-dom';
 
 interface BreadCrumbsProps {
   name: string;
-  handle: () => void;
+  url: string;
 }
-export const BreadCrumbs: FC<BreadCrumbsProps> = ({ name, handle }) => {
+export const BreadCrumbs: FC<BreadCrumbsProps> = ({ name, url }) => {
   return (
-    <button onClick={handle} className="breadCrumbs__button">
+    <Link to={url} className="breadCrumbs__button">
       <i className="icon-arrow-left"></i>
       {name}
-    </button>
+    </Link>
   );
 };

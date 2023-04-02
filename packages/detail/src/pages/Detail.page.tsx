@@ -36,12 +36,15 @@ const DetailPage: FC = () => {
       );
   }, [detail]);
 
-  const redirect = () => navigate(URLS.BASE);
+  const redirect = () => {
+
+    navigate(URLS.BASE);
+  }
 
   return (
     <section>
       <section>
-        <BreadCrumbs name={t("back")} handle={redirect} />
+        <BreadCrumbs name={t("back")} url={URLS.BASE} />
       </section>
       {detail && (
         <>

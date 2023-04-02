@@ -13,7 +13,12 @@ enum Language {
   storage = "language",
 }
 
-const routes = constructRoutes(microfrontendLayout);
+const routes = constructRoutes(microfrontendLayout, {
+  props: {
+    test: 'params pokemon',
+  },
+  loaders: {},
+});
 const applications = constructApplications({
   routes,
   loadApp({ name }, import1: any = System.import(name)) {

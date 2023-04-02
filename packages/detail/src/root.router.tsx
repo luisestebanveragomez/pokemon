@@ -9,7 +9,7 @@ const Detail = React.lazy(() => import("./pages/Detail.page"));
 export const router = createBrowserRouter(
   [
     {
-      path: "/:id",
+      path: `${URLS.DETAIL}/:id`,
       element: (
         <React.Suspense fallback={<>...</>}>
           <PokemonDetailProvider>
@@ -18,6 +18,5 @@ export const router = createBrowserRouter(
         </React.Suspense>
       ),
     },
-  ],
-  { basename: URLS.DETAIL }
+  ]
 );

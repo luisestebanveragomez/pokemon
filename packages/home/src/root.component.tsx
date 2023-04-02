@@ -7,6 +7,5 @@ import { router } from "./root.router";
 
 export default function Root(props) {
   useListenTranslate();
-
   return <RouterProvider router={router} />;
 }
