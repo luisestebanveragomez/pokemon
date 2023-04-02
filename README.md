@@ -19,6 +19,13 @@ link of <b>[DEMO](https://pokemon-37647.web.app/)</b>
 - 📡 Storage
 
 
+<img width="1185" alt="image" src="https://user-images.githubusercontent.com/2993052/229370658-0cb008bd-82ab-4af0-ad38-79e72dd3c5f2.png">
+
+
+<img width="1188" alt="image" src="https://user-images.githubusercontent.com/2993052/229370647-cf3ee00e-336e-4fab-bf0e-513c19c0c0fc.png">
+
+
+
 ## 🚀 Getting Started
 
 ```sh
