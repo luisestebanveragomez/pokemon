@@ -1,6 +1,6 @@
 # Pokémon - Microfrontends
 
-<b>Project created with yarn and lerna.</br>
+<b>Project created with yarn and lerna..</br>
 Works with monorepos and standalone versioning.</b>
 
 link of <a href="https://pokemon-37647.web.app/" target="_blank"><b>DEMO</b></a>
