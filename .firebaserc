@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "pokemon-37647"
-  }
+    "default": "pokemon-single-spa",
+    "pokemon": "pokemon-single-spa"
+  },
+  "targets": {},
+  "etags": {}
 }
