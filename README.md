@@ -39,6 +39,14 @@ link of <a href="https://pokemon-single-spa.web.app/" target="_blank"><b>DEMO</b
 
 ## ✨ Run Microfrontends
 
+### Run all at once
+
+```sh
+   lerna run start
+```
+
+This starts all microfrontends simultaneously on their respective ports.
+
 ### @pokemon/root-config (shell)
 
 ```sh
@@ -76,7 +84,7 @@ link of <a href="https://pokemon-single-spa.web.app/" target="_blank"><b>DEMO</b
 To build all packages at once using Lerna:
 
 ```sh
-   lerna run build --parallel
+   lerna run build
 ```
 
 This runs the `build` script in every package simultaneously.
@@ -86,7 +94,7 @@ This runs the `build` script in every package simultaneously.
 ### Step 1: Build all microfrontends
 
 ```sh
-   lerna run build --parallel
+   lerna run build
 ```
 
 ### Step 2: Organize the `public/` folder
