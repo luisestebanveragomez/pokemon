@@ -3,6 +3,8 @@
 <b>Project created with yarn and lerna.</br>
 Works with monorepos and standalone versioning.</b>
 
+**Versions:** single-spa@6, single-spa-layout@2, React@17
+
 link of <a href="https://pokemon-single-spa.web.app/" target="_blank"><b>DEMO</b></a>
 
 ## List Microfrontends
