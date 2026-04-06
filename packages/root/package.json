@@ -46,8 +46,8 @@
     "@types/systemjs": "^6.1.1",
     "@types/webpack-env": "^1.16.2",
     "file-loader": "^6.2.0",
-    "single-spa": "^5.9.3",
-    "single-spa-layout": "^1.6.0"
+    "single-spa": "^6.0.0",
+    "single-spa-layout": "^2.2.0"
   },
   "types": "dist/pokemon-root-config.d.ts"
 }
