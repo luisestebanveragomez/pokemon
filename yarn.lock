@@ -2192,10 +2192,10 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/parse5@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@types/parse5/-/parse5-5.0.3.tgz#e7b5aebbac150f8b5fdd4a46e7f0bd8e65e19109"
-  integrity sha512-kUNnecmtkunAoQ3CnjmMkzNU/gtxG8guhi+Fk2U/kOpIKjIMKnXGp4IJCgQJrXSgMsWYimYG4TGjz/UzbGEBTw==
+"@types/parse5@^6.0.0":
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/@types/parse5/-/parse5-6.0.3.tgz#705bb349e789efa06f43f128cef51240753424cb"
+  integrity sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==
 
 "@types/prettier@^2.1.5":
   version "2.7.2"
@@ -9318,15 +9318,15 @@ sigstore@^1.0.0:
     make-fetch-happen "^11.0.1"
     tuf-js "^1.0.0"
 
-single-spa-layout@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/single-spa-layout/-/single-spa-layout-1.6.0.tgz#0cad8b691a2c0a0d494e64adae4bfa1143c6130c"
-  integrity sha512-gvsZN5Jhv9+6f3kiAhUXeOQBdcl1Ywrf7sEkcnYMd2u4rO+QxU34j/xc0V4Sy3evqXhwP9B7s2BCWUSMqqxzhQ==
+single-spa-layout@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/single-spa-layout/-/single-spa-layout-2.2.0.tgz#b60281c08b371ebf46d8a82a315a77d66d9e234f"
+  integrity sha512-MqpzeWz4jYTLHPaySVvU5rCyw8/yP0nPnx2312cuF+LKTVShIYl8RBqxgW1kEDciRmBJSP6+trYJKTLp0/ZiUw==
   dependencies:
-    "@types/parse5" "^5.0.3"
+    "@types/parse5" "^6.0.0"
     merge2 "^1.4.1"
     parse5 "^6.0.1"
-    single-spa ">=5"
+    single-spa "^6.0.0-beta.1"
 
 single-spa-react@^4.3.1:
   version "4.6.1"
@@ -9335,10 +9335,15 @@ single-spa-react@^4.3.1:
   dependencies:
     browserslist-config-single-spa "^1.0.1"
 
-single-spa@>=5, single-spa@^5.9.3:
+single-spa@^5.9.3:
   version "5.9.4"
   resolved "https://registry.yarnpkg.com/single-spa/-/single-spa-5.9.4.tgz#2a995b0784867a3f60ceb458de295ee67f045077"
   integrity sha512-QkEoh0AzGuU82qnbUUk0ydF78QbU5wMKqKKJn7uUQfBiOYlRQEfIOpLM4m23Sab+kTOLI1kbYhYeiQ7fX5KVVw==
+
+single-spa@^6.0.0, single-spa@^6.0.0-beta.1:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/single-spa/-/single-spa-6.0.3.tgz#030c1b4a1dab80d29da858d93361d49127371a3b"
+  integrity sha512-pXlwHXHhs3hx/MnGQHBLdFCVAN2rlm9TLBKazbDMyZ25QRxoen2vlUZ47MyXKa9K8Gd5UZs/gkuQad4TGbViwg==
 
 sirv@^1.0.7:
   version "1.0.19"
